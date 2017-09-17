@@ -2,18 +2,18 @@ from conans import ConanFile, tools, os
 
 class BoostIntrusiveConan(ConanFile):
     name = "Boost.Intrusive"
-    version = "1.64.0"
+    version = "1.65.1"
     short_paths = True
     url = "https://github.com/bincrafters/conan-boost-intrusive"
-    description = "Please visit http://www.boost.org/doc/libs/1_64_0/libs/libraries.htm"
+    description = "Please visit http://www.boost.org/doc/libs/1_65_1/libs/libraries.htm"
     license = "www.boost.org/users/license.html"
     lib_short_names = ["intrusive"]
-    requires =  "Boost.Assert/1.64.0@bincrafters/testing", \
-                      "Boost.Config/1.64.0@bincrafters/testing", \
-                      "Boost.Core/1.64.0@bincrafters/testing", \
-                      "Boost.Functional/1.64.0@bincrafters/testing", \
-                      "Boost.Move/1.64.0@bincrafters/testing", \
-                      "Boost.Static_Assert/1.64.0@bincrafters/testing"
+    requires =  "Boost.Assert/1.65.1@bincrafters/testing", \
+                      "Boost.Config/1.65.1@bincrafters/testing", \
+                      "Boost.Core/1.65.1@bincrafters/testing", \
+                      "Boost.Functional/1.65.1@bincrafters/testing", \
+                      "Boost.Move/1.65.1@bincrafters/testing", \
+                      "Boost.Static_Assert/1.65.1@bincrafters/testing"
 
                       #assert1 config0 core2 functional5 move3 static_assert1
 
