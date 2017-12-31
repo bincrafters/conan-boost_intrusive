@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostIntrusiveConan(ConanFile):
     name = "boost_intrusive"
     version = "1.66.0"
-    url = "https://github.com/bincrafters/conan-boost-intrusive"
+    url = "https://github.com/bincrafters/conan-boost_intrusive"
 
     lib_short_names = ["intrusive"]
     is_header_only = True
