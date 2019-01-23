@@ -8,6 +8,7 @@ base = python_requires("boost_base/1.67.0@bincrafters/testing")
 
 class BoostIntrusiveConan(base.BoostBaseConan):
     name = "boost_intrusive"
+    version = "1.67.0"
     url = "https://github.com/bincrafters/conan-boost_intrusive"
     lib_short_names = ["intrusive"]
     header_only_libs = ["intrusive"]
